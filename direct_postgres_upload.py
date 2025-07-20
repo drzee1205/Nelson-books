@@ -11,8 +11,8 @@ import random
 from typing import List
 import time
 
-# PostgreSQL connection string
-DATABASE_URL = "postgresql://postgres.jlrjhjylekjedqwfctub:swivel-next-living@duck.com@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
+# PostgreSQL connection string (replace with your actual connection string)
+DATABASE_URL = "postgresql://username:password@host:port/database"
 
 def create_connection():
     """Create PostgreSQL connection."""
@@ -473,4 +473,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-

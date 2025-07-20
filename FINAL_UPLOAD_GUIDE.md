@@ -34,10 +34,10 @@ The connection string format might need adjustment. Try these variations:
 
 ```python
 # Option 1: Standard format
-DATABASE_URL = "postgresql://postgres.jlrjhjylekjedqwfctub:YOUR_ACTUAL_PASSWORD@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
+DATABASE_URL = "postgresql://username:password@host:port/database"
 
 # Option 2: With SSL mode
-DATABASE_URL = "postgresql://postgres.jlrjhjylekjedqwfctub:YOUR_ACTUAL_PASSWORD@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres?sslmode=require"
+DATABASE_URL = "postgresql://username:password@host:port/database?sslmode=require"
 ```
 
 ## 📊 What You'll Get After Upload
@@ -158,4 +158,3 @@ After successful upload:
 **Total Records**: 805  
 **Embedding Dimensions**: 1536  
 **Ready for Production**: ✅
-
